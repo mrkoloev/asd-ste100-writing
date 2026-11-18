@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clear Technical Writing"
+  short_description: "Clarify technical text while preserving meaning"
+  default_prompt: "Use $asd-ste100-writing to rewrite this technical text clearly while preserving its meaning."
