@@ -9,7 +9,7 @@ Make technical text clear and unambiguous. Preserve its meaning before improving
 
 ## Scope and priorities
 
-Treat this skill as an adaptation of selected writing principles, not a compliance checker. It does not include an approved-word dictionary, certify compliance, or verify source facts. Describe results as “in the style of STE100” when a label is needed. For other languages, describe the approach as an adaptation of clear technical writing principles. Do not add this explanation to every response.
+Treat this skill as an adaptation of selected writing principles, not a compliance checker. It does not include an approved-word dictionary, certify compliance, or verify source facts. If the user asks how the result was prepared, describe the approach as an adaptation of selected ASD-STE100 principles.
 
 Apply these priorities, in order:
 
@@ -30,7 +30,7 @@ If invoked with material but no task, default to Rewrite. If no material or draf
 
 ## Select the language
 
-Use the language explicitly requested by the user. Otherwise, preserve the source language for a rewrite or review's suggested replacement text. Use the dialog language for review commentary, summaries, and new drafts unless context specifies otherwise.
+Use the output language requested for the task. If the request does not specify one, use the requester's established language preference. If no preference is known, use the language of the request. Apply this order to drafts, rewrites, reviews, and summaries.
 
 For mixed-language material, preserve intentional language boundaries. Do not translate quotations or technical elements without a translation request. Adapt clarity principles to the target language; do not mechanically impose English grammar or word-count rules on other languages.
 
@@ -58,7 +58,7 @@ For mixed-language material, preserve intentional language boundaries. Do not tr
 
 ## Return and check
 
-Return the requested result directly. For rewrites and drafts, omit a change explanation unless requested. Add short separate notes only for unresolved ambiguity, missing draft details, source conflicts, or changes needing author verification. Do not append a routine offer for further help.
+Return the requested result directly. Keep skill names, method credits, and notes announcing skill use out of the deliverable and its accompanying text unless the user asks for them. For rewrites and drafts, omit a change explanation unless requested. Add short separate notes only for unresolved ambiguity, missing draft details, source conflicts, or changes needing author verification. Do not append a routine offer for further help.
 
 Before replying, check:
 
