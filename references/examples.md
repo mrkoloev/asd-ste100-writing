@@ -45,13 +45,11 @@ Rewrite: “Hold the release button while pulling the handle.”
 
 Do not split this into sequential steps.
 
-## Keep source and response languages distinct
+## Use the requester's preferred language
 
-Request in Russian: “Упрости английский текст: Before proceeding with installation, ensure that the device is disconnected.”
+Request in Russian with no known language preference: “Упрости формулировку: Before proceeding with installation, ensure that the device is disconnected.”
 
-Rewrite: “Before installation, make sure that the device is disconnected.”
-
-Keep the replacement text in English unless translation is requested.
+Rewrite: “Перед установкой убедитесь, что устройство отключено.”
 
 ## Flag a conflict
 
