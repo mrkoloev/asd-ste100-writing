@@ -41,11 +41,12 @@
     ]
   },
   {
-    "id": "source-language",
-    "prompt": "Упрости английский текст: Before proceeding with installation, ensure that the device is disconnected.",
+    "id": "request-language-default",
+    "prompt": "Упрости формулировку: Before proceeding with installation, ensure that the device is disconnected.",
     "criteria": [
-      "Keep replacement text in English",
-      "Keep prerequisite"
+      "Use Russian when no other output language is requested and no other preference is known",
+      "Keep the disconnection prerequisite",
+      "Do not add a heading, note, or footer announcing skill use"
     ]
   },
   {
