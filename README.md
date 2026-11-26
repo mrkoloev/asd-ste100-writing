@@ -28,7 +28,7 @@ Example requests:
 - “Rewrite this English document. Keep the replacement text in English.”
 
 
-An explicit task takes priority. With material and no task, the skill defaults to rewriting. Summaries require a request. A rewrite keeps the source language unless another language is requested. Commentary follows the conversation language.
+An explicit task takes priority. With material and no task, the skill defaults to rewriting. Summaries require a request. Use the requested output language. If none is specified, the skill uses the requester's preferred language or, if that preference is unknown, the language of the request. The result omits skill attribution by default.
 
 
 The skill preserves program code, commands, identifiers, paths, links, numerical values, and units unless changes are explicitly requested. It flags ambiguity rather than inventing missing facts.
